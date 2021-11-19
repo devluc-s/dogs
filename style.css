@@ -572,7 +572,7 @@ header {
 .menu {
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  padding: 20px 0;
 }
 
 .menu input, .menu a {
