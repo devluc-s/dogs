@@ -524,29 +524,21 @@ width: 100%;
 }
 
 /* components */
-
-.dogs-btn-1 {
+.dogs-btn-1, .dogs-btn-2{
   width: 100%;
   padding: 20px;
-  font-size: 20px;
   text-transform: uppercase;
-  font-weight: bold;
   border-radius: 10px;
+  cursor: pointer;
+}
+.dogs-btn-1 {
   background: var(--cor-n1);
   color: var(--cor-n2);
-  cursor: pointer;
 }
 
 .dogs-btn-2 {
-  width: 100%;
-  padding: 20px;
-  font-size: 20px;
-  text-transform: uppercase;
-  font-weight: bold;
-  border-radius: 10px;
   background: var(--cor-n4);
   color: var(--cor-n5);
-  cursor: pointer;
 }
 
 .dogs-title h2 {
@@ -567,7 +559,9 @@ width: 100%;
 
 
 
-
+html{
+  scroll-behavior: smooth;
+}
 
 
 header {
@@ -692,8 +686,12 @@ header {
 }
 @media (max-width: 768px) {
   .dogs-title h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
+  
+.dogs-title h2{
+  font-size: 25px;
+}
   .dogs-image{
     display: none;
   }
@@ -701,5 +699,10 @@ header {
     font-size: inherit;
   }
 }
+@media (max-width: 576px) {
+ .dogs-home{
+   width: 250px;
+   margin: 0 auto;
+ }
 
-
+}
