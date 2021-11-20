@@ -680,19 +680,19 @@ header {
   padding: 20px;
   box-shadow: 0px 3px 6px var(--cor-n4);
   border-radius: 10px;
+  text-align: center;
 }
 
 .dogs-card-bottom ul{
   display: flex;
   justify-content: space-evenly;
-  padding:30px 0 20px 0;
-  text-align: center;
+  margin:30px 0 20px 0;
 }
 .dogs-results > div{
   padding-bottom: 20px;
 }
-.dogs-card-top{
-  text-align: center;
+.dogs-card-top p::first-letter{
+  color: var(--cor-n1);
 }
 .dogs-card-top p{
   font-size: 25px;
@@ -705,9 +705,11 @@ header {
   border-radius: 50%;
   border: 2px solid var(--cor-n4);
   padding: 2px;
-  max-width: 100px;
-  margin: 0 auto 20px;
-  display: block;
+}
+
+.dogs-card-image{
+  margin: 0 auto 10px;
+    max-width: 100px;
 }
 
 @media (max-width: 768px) {
